@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 360px) and (max-width: 830px) {
+    .container{
+        width: 360px;
+    }
+    /* БУРНЕР МЕНЮ: ПОЧАТОК */
+    .header{
+       width: 360px; 
+       position: relative;
+       justify-content: flex-start;
+    }
+    .pulser{
+        position: absolute;
+        margin: 20px;
+    }
+    .icon{
+        position: absolute;
+        margin: 20px;
+    }
+    .span {
+        margin-left: 300px;
+        width: 30px;
+        height: 5px;
+        background-color: white;
+        border-radius: 20%;
+        position: absolute;
+        top: 26px;
+    }
+    .span::after {
+        content: '';
+        width: 30px;
+        height: 5px;
+        background-color: white;
+        border-radius: 20%;
+        position: absolute;
+        top: 11px;
+    }
+    .span::before {
+        content: '';
+        width: 30px;
+        height: 5px;
+        background-color:  white;
+        border-radius: 20%;
+        position: absolute;
+        top: 22px;
+    }
+    .list{
+          flex-direction: column;
+          background: #030b16;
+          margin-top: 596px;
+          width: 360px;
+    }
+    .item{
+          width: 360px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+    }
+    .checkbox:checked~.list>.item {
+        display: block;
+    }
+    .checkbox:checked~.label>.span {
+        background-color: transparent;
+    }
+    .checkbox:checked~.label>.span::after {
+        transform: rotate(-45deg);
+        top: 11px;
+        border-radius: 0%;
+    } 
+    .checkbox:checked~.label>.span::before {
+        transform: rotate(45deg);
+        top: 11px;
+        border-radius: 0%;
+    }
+    .item {
+        display: none;
+    }
+    .item {
+        text-align: center;
+    }
+    .checkbox {
+        display: none;
+    }
+    /* БУРГЕР МЕНЮ: КІНЕЦЬ */
+    .section1{
+       width: 360px;
+       height: 962px;
+    }
+    .secret-wrap{
+        width: 330px;
+        height: 900px;
+        grid-template-columns: 323px;
+        grid-template-rows: 431px 192px 99px 99px;
+        grid-template-areas: "photo"
+                             "text"
+                             "button"
+                             "buttontwo";
+        grid-gap: 20px;
+    }
+    .title{
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    .text{
+        font-size: 24px;
+    }
+    .wrap2{
+        margin-top: 20px;
+    }
+    .section2{
+        width: 360px;
+        height: 557px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap3{
+        width: 360px;
+        height: 420px;
+        padding: 40px;
+        padding-top: 10px;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    .study{
+        width: 300px;
+    }
+    .photo2{
+        width: 242px;
+        height: 255px;
+    }
+    .photo2:focus{
+        transform: scale(1.1);
+        opacity: 100%;
+    }
+    .photo-back{
+        width: 242px;
+        height: 255px;
+        margin: 260px 1px;
+    }
+    .sup{
+        margin-bottom: 10px;
+    }
+    .section3{
+        width: 360px;
+        height: 1880px;
+    }
+    .background-wrap{
+        width: 320px;
+        height: 1712px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+    .image{
+        width: 181px;
+        height: 92px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+    }
+    .wrap4{
+        grid-template-columns: 246px;
+        grid-template-rows: repeat(6, 222px);
+        grid-gap: 40px;
+    }
+    .block{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .text3{
+        width: 220px;
+        font-size: 8.5px;
+        text-align: center;
+    }
+    .text-wrap{
+        height: 100px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4{
+        width: 360px;
+        height: 2368px;
+        align-items: flex-end;
+    }
+    .wrapper1{
+        grid-template-columns: 330px;
+        grid-template-rows: 100px repeat(8, 130px);
+    }
+    .wrapper2{
+        grid-template-columns: 330px;
+        grid-template-rows: 100px repeat(4, 130px);
+    }
+    .subtitle2{
+        grid-column: 1 / 2;
+    }
+    .cen{
+        align-self: center;
+    }
+    .line{
+        width: 284px;
+    }
+    .inline{
+        width: 284px;
+    }
+    .text4{
+        font-size: 36px;
+    }
+    .min{
+        font-size: 30px;
+    }
+    .svg{
+        width: 130px;
+    }
+    .design{
+        width: 199px;
+    }
+    .java{
+        width: 66px;
+    }
+    .content{
+        width: 260px;
+    }
+    .team{
+        width: 240px;
+    }
+    .work{
+        width: 270px;
+    }
+    .section5{
+        width: 360px;
+        height: 750px;
+        grid-template-columns: 316px;
+        grid-template-rows: 100px 204px 224px 110px;
+        padding: 20px;
+    }
+    .subtitle3{
+        font-size: 34px;
+    }
+    .box2{
+        padding: 10px;
+    }
+    .br-text{
+        display: block;
+    }
+    .tit2{
+        font-size: 39px;
+    }
+    .section6{
+        width: 360px;
+    }
+    .form{
+        width: 312px;
+    }
+    .input1, .input2{
+        width: 200px;
+    }
+    .in-wrap{
+        width: 200px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .square1{
+        width: 89px;
+        height: 97px;
+        margin-top: 90px;
+        margin-right: 270px;
+    }
+    .square2{
+        width: 95px;
+        height: 100px;
+        margin-left: 265px;
+        margin-top: 625px;
+    }
+    .square3{
+        width: 125px;
+        height: 130px;
+        margin-left: 230px;
+        margin-top: 300px;
+    }
+    .square4{
+        width: 125px;
+        height: 116px;
+        margin-left: 230px;
+        margin-top: 45px;
+    }
+    .marg{
+        margin-top: -40px;
+    }
+    .footer{
+        width: 360px;
+        height: 652px;
+        display: grid;
+        grid-template-columns: 330px;
+        grid-template-rows: 60px repeat(4, 88px);
+    }
+    .grid{
+        grid-column: 1 / 2;
+    }
+    .text-info{
+        font-size: 30px;
+    }
+    .petr{
+        display: block;
+    }
+}

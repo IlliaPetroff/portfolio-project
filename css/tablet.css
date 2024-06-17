@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 832px) and (max-width: 1279px) {
+    .container{
+        width: 832px;
+    }
+    .header{
+        width: 832px;
+    }
+    .item{
+        padding: 15px;
+    }
+    link{
+        font-size: 24px;
+    }
+    .section1{
+        width: 832px;
+    }
+    .secret-wrap{
+        width: 740px;
+        display: grid;
+        grid-template-columns: 330px 343px;
+        grid-template-rows: 192px 99px 99px;
+        grid-template-areas: "photo text"
+                             "photo button"
+                             "photo buttontwo";
+    }
+    .title{
+        margin-bottom: 7px;
+    }
+    .br-title{
+        display: block;
+    }
+    .section2{
+        width: 832px;
+    }
+    .wrap3{
+        width: 613px;
+    }
+    .photo-back{
+        margin: 100px 500px;
+    }
+    .photo2:focus{
+        transform: scale(1.1);
+        opacity: 100%;
+    }
+    .section3{
+        width: 832px;
+        height: 1880px;
+    }
+    .background-wrap{
+        width: 611px;
+        height: 1712px;
+        padding: 70px;
+    }
+    .wrap4{
+        grid-template-columns: 480px;
+        grid-template-rows: repeat(6, 222px);
+    }
+    .section4{
+        width: 832px;
+        height: 2368px;
+    }
+    .wrapper1{
+        grid-template-columns: 502px;
+        grid-template-rows: 100px repeat(8, 130px);
+    }
+    .wrapper2{
+        grid-template-columns: 502px;
+        grid-template-rows: 100px repeat(4, 130px);
+    }
+    .subtitle2{
+        grid-column: 1 / 2;
+    }
+    .section5{
+        width: 832px;
+        padding: 25px;
+    }
+    .section6{
+        width: 832px;
+    }
+    .footer{
+        width: 832px;
+        grid-template-columns: 450px 300px;
+    }
+    .text-info{
+        font-size: 30px;
+    }
+    .tab{
+        width: 83px;
+        height: 83px;
+    }
+    .tab2{
+        width: 90px;
+        height: 63px;
+    }
+}
